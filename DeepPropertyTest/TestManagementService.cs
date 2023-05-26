@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace DeepPropertyTest
 {
-    public class DeepClass
+    /// <summary>
+    /// Like TestManagementService
+    /// </summary>
+    public class TestManagementService
     {
         public IInspection Inspection { get; set; } = new InspectionAdapter();
         public string HighResolution

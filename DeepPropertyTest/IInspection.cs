@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DeepPropertyTest
 {
+    /// <summary>
+    /// Properties or methods want to publish
+    /// </summary>
     public interface IInspection
     {
         string HighResolution { get; set; }

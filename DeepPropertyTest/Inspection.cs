@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DeepPropertyTest
 {
+    /// <summary>
+    /// CRO Class
+    /// </summary>
     public class Inspection
     {
         public Test Test { get; set; } = new Test();
