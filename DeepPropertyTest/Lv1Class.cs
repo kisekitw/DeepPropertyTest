@@ -9,17 +9,17 @@ namespace DeepPropertyTest
     /// <summary>
     /// CRO Class
     /// </summary>
-    public class Inspection
+    public class Lv1Class
     {
-        public Test Test { get; set; } = new Test();
+        public Lv2Class Lv2 { get; set; } = new Lv2Class();
     }
 
-    public class Test
+    public class Lv2Class
     {
-        public ImageSetting ImageParam { get; set; } = new ImageSetting();
+        public Lv3Class Lv3 { get; set; } = new Lv3Class();
     }
 
-    public class ImageSetting
+    public class Lv3Class
     {
         public string HighResolution { get; set; } = string.Empty;
     }

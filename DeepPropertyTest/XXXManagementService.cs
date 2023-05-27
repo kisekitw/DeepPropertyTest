@@ -10,13 +10,13 @@ namespace DeepPropertyTest
     /// <summary>
     /// Like TestManagementService
     /// </summary>
-    public class TestManagementService
+    public class XXXManagementService
     {
-        public IInspection Inspection { get; set; } = new InspectionAdapter();
+        public Ilv1Adapter Lv1Adapter { get; set; } = new InspectionAdapter();
         public string HighResolution
         {
-            get => Inspection.HighResolution;
-            set => Inspection.HighResolution = value;
+            get => Lv1Adapter.HighResolution;
+            set => Lv1Adapter.HighResolution = value;
         }
     }
 }

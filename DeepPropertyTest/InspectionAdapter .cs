@@ -9,22 +9,22 @@ namespace DeepPropertyTest
     /// <summary>
     /// Adapter to isolate source change
     /// </summary>
-    public class InspectionAdapter : IInspection
+    public class InspectionAdapter : Ilv1Adapter
     {
         /// <summary>
         /// Truely CRO Object
         /// </summary>
-        private readonly Inspection inspection;
+        private readonly Lv1Class lv1;
 
         public InspectionAdapter()
         {
-            inspection = new Inspection();
+            lv1 = new Lv1Class();
         }
 
         public string HighResolution
         {
-            get => inspection.Test.ImageParam.HighResolution;
-            set => inspection.Test.ImageParam.HighResolution = value;
+            get => lv1.Lv2.Lv3.HighResolution;
+            set => lv1.Lv2.Lv3.HighResolution = value;
         }
     }
 }
