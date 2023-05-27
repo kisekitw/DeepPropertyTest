@@ -9,14 +9,14 @@ namespace DeepPropertyTest
     /// <summary>
     /// Adapter to isolate source change
     /// </summary>
-    public class InspectionAdapter : Ilv1Adapter
+    public class Lv1Adapter : Ilv1Adapter
     {
         /// <summary>
         /// Truely CRO Object
         /// </summary>
         private readonly Lv1Class lv1;
 
-        public InspectionAdapter()
+        public Lv1Adapter()
         {
             lv1 = new Lv1Class();
         }

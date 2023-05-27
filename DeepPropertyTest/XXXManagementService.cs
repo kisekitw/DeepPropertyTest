@@ -12,7 +12,7 @@ namespace DeepPropertyTest
     /// </summary>
     public class XXXManagementService
     {
-        public Ilv1Adapter Lv1Adapter { get; set; } = new InspectionAdapter();
+        public Ilv1Adapter Lv1Adapter { get; set; } = new Lv1Adapter();
         public string HighResolution
         {
             get => Lv1Adapter.HighResolution;
