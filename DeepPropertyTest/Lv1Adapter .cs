@@ -9,7 +9,7 @@ namespace DeepPropertyTest
     /// <summary>
     /// Adapter to isolate source change
     /// </summary>
-    public class Lv1Adapter : Ilv1Adapter
+    public class Lv1Adapter : ILv1Adapter
     {
         /// <summary>
         /// Truely CRO Object
@@ -26,5 +26,7 @@ namespace DeepPropertyTest
             get => lv1.Lv2.Lv3.HighResolution;
             set => lv1.Lv2.Lv3.HighResolution = value;
         }
+
+        // Other properties or methods
     }
 }

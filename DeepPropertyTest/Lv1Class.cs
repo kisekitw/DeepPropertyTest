@@ -21,6 +21,9 @@ namespace DeepPropertyTest
 
     public class Lv3Class
     {
+        /// <summary>
+        /// Deep property
+        /// </summary>
         public string HighResolution { get; set; } = string.Empty;
     }
 

@@ -9,8 +9,10 @@ namespace DeepPropertyTest
     /// <summary>
     /// Properties or methods want to publish
     /// </summary>
-    public interface Ilv1Adapter
+    public interface ILv1Adapter
     {
         string HighResolution { get; set; }
+
+        // Other properties or methods
     }
 }
